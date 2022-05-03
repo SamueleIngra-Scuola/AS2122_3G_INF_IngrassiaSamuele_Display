@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AS2122_3G_INF_Ingrassia_Display.Lib\**" />
+    <EmbeddedResource Remove="AS2122_3G_INF_Ingrassia_Display.Lib\**" />
+    <None Remove="AS2122_3G_INF_Ingrassia_Display.Lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="AS2122_3G_INF_Ingrassia_Display.Lib\AS2122_3G_INF_Ingrassia_Display.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
