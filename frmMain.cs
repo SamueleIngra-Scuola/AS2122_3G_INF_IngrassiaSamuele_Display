@@ -26,96 +26,99 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
         private void btnEsegui_Click(object sender, EventArgs e)
         {
             Lettere lettere = new Lettere();
+            bool[,] letteraScelta = new bool[3, 5];
 
-            for (int j = 0; j <= 4; j++)
-                for (int i = 0; i <= 2; i++)
-                switch(txtLettera.Text.ToLower())
-                {
-                    case "a":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraA[j, i]);
-                        break;
-                    case "b":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraB[j, i]);
-                        break;
-                    case "c":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraC[j, i]);
-                        break;
-                    case "d":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraD[j, i]);
-                        break;
-                    case "e":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraE[j, i]);
-                        break;
-                    case "f":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraF[j, i]);
-                        break;
-                    case "g":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraG[j, i]);
-                        break;
-                    case "h":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraH[j, i]);
-                        break;
-                    case "i":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraI[j, i]);
-                        break;
-                    case "j":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraJ[j, i]);
-                        break;
-                    case "k":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraK[j, i]);
-                        break;
-                    case "l":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraL[j, i]);
-                        break;
-                    case "m":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraM[j, i]);
-                        break;
-                    case "n":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraN[j, i]);
-                        break;
-                    case "o":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraO[j, i]);
-                        break;
-                    case "p":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraP[j, i]);
-                        break;
-                    case "q":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraQ[j, i]);
-                        break;
-                    case "r":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraR[j, i]);
-                        break;
-                    case "s":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraS[j, i]);
-                        break;
-                    case "t":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraT[j, i]);
-                        break;
-                    case "u":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraU[j, i]);
-                        break;
-                    case "v":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraV[j, i]);
-                        break;
-                    case "w":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraW[j, i]);
-                        break;
-                    case "x":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraX[j, i]);
-                        break;
-                    case "y":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraY[j, i]);
-                        break;
-                    case "z":
-                        IlluminaPixel(i.ToString() + j.ToString(), lettere.letteraZ[j, i]);
-                        break;
-                    default:
-                        i = 10; //Portiamo i a 10 per terminare il ciclo
-                        j = 10; //Portiamo j a 10 per terminare il ciclo
-                        MessageBox.Show("Questa lettera non esiste!");
-                        break;
-                }
-                
+            switch (txtLettera.Text.ToLower())
+            {
+                case "a":
+                    letteraScelta = lettere.letteraA;
+                    break;
+                case "b":
+                    letteraScelta = lettere.letteraB;
+                    break;
+                case "c":
+                    letteraScelta = lettere.letteraC;
+                    break;
+                case "d":
+                    letteraScelta = lettere.letteraD;
+                    break;
+                case "e":
+                    letteraScelta = lettere.letteraE;
+                    break;
+                case "f":
+                    letteraScelta = lettere.letteraF;
+                    break;
+                case "g":
+                    letteraScelta = lettere.letteraG;
+                    break;
+                case "h":
+                    letteraScelta = lettere.letteraH;
+                    break;
+                case "i":
+                    letteraScelta = lettere.letteraI;
+                    break;
+                case "j":
+                    letteraScelta = lettere.letteraJ;
+                    break;
+                case "k":
+                    letteraScelta = lettere.letteraK;
+                    break;
+                case "l":
+                    letteraScelta = lettere.letteraL;
+                    break;
+                case "m":
+                    letteraScelta = lettere.letteraM;
+                    break;
+                case "n":
+                    letteraScelta = lettere.letteraN;
+                    break;
+                case "o":
+                    letteraScelta = lettere.letteraO;
+                    break;
+                case "p":
+                    letteraScelta = lettere.letteraP;
+                    break;
+                case "q":
+                    letteraScelta = lettere.letteraQ;
+                    break;
+                case "r":
+                    letteraScelta = lettere.letteraR;
+                    break;
+                case "s":
+                    letteraScelta = lettere.letteraS;
+                    break;
+                case "t":
+                    letteraScelta = lettere.letteraT;
+                    break;
+                case "u":
+                    letteraScelta = lettere.letteraU;
+                    break;
+                case "v":
+                    letteraScelta = lettere.letteraV;
+                    break;
+                case "w":
+                    letteraScelta = lettere.letteraW;
+                    break;
+                case "x":
+                    letteraScelta = lettere.letteraX;
+                    break;
+                case "y":
+                    letteraScelta = lettere.letteraY;
+                    break;
+                case "z":
+                    letteraScelta = lettere.letteraZ;
+                    break;
+                default:
+                    MessageBox.Show("Questa lettera non esiste!");
+                    break;
+            }
+
+            if (letteraScelta.Length != 0)
+                for (int j = 0; j <= 4; j++)
+                    for (int i = 0; i <= 2; i++)
+                        IlluminaPixel(i.ToString() + j.ToString(), letteraScelta[j, i]);
+
+
         }
 
         private void IlluminaPixel(string wxh, bool status)
