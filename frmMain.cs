@@ -123,49 +123,49 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             switch (wxh)
             {
                 case "00":
-                    btn00.Visible = status;
+                    btn100.Visible = status;
                     break;
                 case "10":
-                    btn10.Visible = status;
+                    btn110.Visible = status;
                     break;
                 case "20":
-                    btn20.Visible = status;
+                    btn120.Visible = status;
                     break;
                 case "01":
-                    btn01.Visible = status;
+                    btn101.Visible = status;
                     break;
                 case "11":
-                    btn11.Visible = status;
+                    btn111.Visible = status;
                     break;
                 case "21":
-                    btn21.Visible = status;
+                    btn121.Visible = status;
                     break;
                 case "02":
-                    btn02.Visible = status;
+                    btn102.Visible = status;
                     break;
                 case "12":
-                    btn12.Visible = status;
+                    btn112.Visible = status;
                     break;
                 case "22":
-                    btn22.Visible = status;
+                    btn122.Visible = status;
                     break;
                 case "03":
-                    btn03.Visible = status;
+                    btn103.Visible = status;
                     break;
                 case "13":
-                    btn13.Visible = status;
+                    btn113.Visible = status;
                     break;
                 case "23":
-                    btn23.Visible = status;
+                    btn123.Visible = status;
                     break;
                 case "04":
-                    btn04.Visible = status;
+                    btn104.Visible = status;
                     break;
                 case "14":
-                    btn14.Visible = status;
+                    btn114.Visible = status;
                     break;
                 case "24":
-                    btn24.Visible = status;
+                    btn124.Visible = status;
                     break;
             }    
         }
