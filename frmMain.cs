@@ -108,12 +108,19 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                 case "z":
                     letteraScelta = lettere.letteraZ;
                     break;
+                case " ":
+                    letteraScelta = lettere.vuoto;
+                    break;
+                case "!":
+                    letteraScelta = lettere.esclamazione;
+                    break;
                 default:
+                    letteraScelta = lettere.vuoto;
                     MessageBox.Show("Questa lettera non esiste!");
                     break;
             }
 
-            if (letteraScelta.Length != 0)
+            if (letteraScelta != null)
                 for (int j = 0; j <= 4; j++)
                     for (int i = 0; i <= 2; i++)
                         IlluminaPixel(i.ToString() + j.ToString(), letteraScelta[j, i]);
