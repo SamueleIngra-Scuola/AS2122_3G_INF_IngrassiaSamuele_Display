@@ -329,8 +329,6 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                     }
                     break;
             }
-        }
-
-        
+        } 
     }
 }
