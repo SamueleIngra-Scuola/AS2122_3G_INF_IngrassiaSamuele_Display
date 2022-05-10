@@ -26,25 +26,31 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
         private void btnEsegui_Click(object sender, EventArgs e)
         {
             
-            bool[,] letteraScelta = new bool[3, 5];
+            
             string frase = txtLettera.Text.ToLower();
-
             
 
-            int schermo = 1;
 
-            if (letteraScelta != null)
-                for (int k = 0; k <= frase.Length; k++, schermo++)
+
+            for (int i = 0; i < frase.Length - 3; i++)
+            {
+                int schermo = 1;
+                for (int j = i; schermo <= 4; j++, schermo++)
                 {
-                    letteraScelta = IndividuaLettera(frase[k]);
-                    for (int j = 0; j <= 4; j++)
-                        for (int i = 0; i <= 2; i++)
-                            IlluminaPixel(schermo, i.ToString() + j.ToString(), letteraScelta[j, i]);
-                    Application.DoEvents();
-                    System.Threading.Thread.Sleep(300);
-                    if (schermo == 5) schermo = 1;
+                    InserisciLettera(schermo, frase[j]);           
                 }
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(300);
+            }
 
+        }
+        
+
+        private void InserisciLettera(int schermo, char lettera)
+        {
+            for (int j = 0; j <= 4; j++)
+                for (int i = 0; i <= 2; i++)
+                    IlluminaPixel(schermo, i.ToString() + j.ToString(), IndividuaLettera(lettera)[j, i]);
         }
 
         private bool[,] IndividuaLettera(char lettera)
