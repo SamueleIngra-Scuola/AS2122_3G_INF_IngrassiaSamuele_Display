@@ -1044,7 +1044,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 278);
+            this.ClientSize = new System.Drawing.Size(421, 227);
             this.Controls.Add(this.btnSvuota);
             this.Controls.Add(this.btn424);
             this.Controls.Add(this.btn414);
