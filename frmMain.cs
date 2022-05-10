@@ -25,159 +25,300 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
 
         private void btnEsegui_Click(object sender, EventArgs e)
         {
-            Lettere lettere = new Lettere();
+            
             bool[,] letteraScelta = new bool[3, 5];
+            string frase = txtLettera.Text.ToLower();
 
-            switch (txtLettera.Text.ToLower())
-            {
-                case "a":
-                    letteraScelta = lettere.letteraA;
-                    break;
-                case "b":
-                    letteraScelta = lettere.letteraB;
-                    break;
-                case "c":
-                    letteraScelta = lettere.letteraC;
-                    break;
-                case "d":
-                    letteraScelta = lettere.letteraD;
-                    break;
-                case "e":
-                    letteraScelta = lettere.letteraE;
-                    break;
-                case "f":
-                    letteraScelta = lettere.letteraF;
-                    break;
-                case "g":
-                    letteraScelta = lettere.letteraG;
-                    break;
-                case "h":
-                    letteraScelta = lettere.letteraH;
-                    break;
-                case "i":
-                    letteraScelta = lettere.letteraI;
-                    break;
-                case "j":
-                    letteraScelta = lettere.letteraJ;
-                    break;
-                case "k":
-                    letteraScelta = lettere.letteraK;
-                    break;
-                case "l":
-                    letteraScelta = lettere.letteraL;
-                    break;
-                case "m":
-                    letteraScelta = lettere.letteraM;
-                    break;
-                case "n":
-                    letteraScelta = lettere.letteraN;
-                    break;
-                case "o":
-                    letteraScelta = lettere.letteraO;
-                    break;
-                case "p":
-                    letteraScelta = lettere.letteraP;
-                    break;
-                case "q":
-                    letteraScelta = lettere.letteraQ;
-                    break;
-                case "r":
-                    letteraScelta = lettere.letteraR;
-                    break;
-                case "s":
-                    letteraScelta = lettere.letteraS;
-                    break;
-                case "t":
-                    letteraScelta = lettere.letteraT;
-                    break;
-                case "u":
-                    letteraScelta = lettere.letteraU;
-                    break;
-                case "v":
-                    letteraScelta = lettere.letteraV;
-                    break;
-                case "w":
-                    letteraScelta = lettere.letteraW;
-                    break;
-                case "x":
-                    letteraScelta = lettere.letteraX;
-                    break;
-                case "y":
-                    letteraScelta = lettere.letteraY;
-                    break;
-                case "z":
-                    letteraScelta = lettere.letteraZ;
-                    break;
-                case " ":
-                    letteraScelta = lettere.vuoto;
-                    break;
-                case "!":
-                    letteraScelta = lettere.esclamazione;
-                    break;
-                default:
-                    letteraScelta = lettere.vuoto;
-                    MessageBox.Show("Questa lettera non esiste!");
-                    break;
-            }
+            
+
+            int schermo = 1;
 
             if (letteraScelta != null)
-                for (int j = 0; j <= 4; j++)
-                    for (int i = 0; i <= 2; i++)
-                        IlluminaPixel(i.ToString() + j.ToString(), letteraScelta[j, i]);
-
+                for (int k = 0; k <= frase.Length; k++, schermo++)
+                {
+                    letteraScelta = IndividuaLettera(frase[k]);
+                    for (int j = 0; j <= 4; j++)
+                        for (int i = 0; i <= 2; i++)
+                            IlluminaPixel(schermo, i.ToString() + j.ToString(), letteraScelta[j, i]);
+                    Application.DoEvents();
+                    System.Threading.Thread.Sleep(300);
+                    if (schermo == 5) schermo = 1;
+                }
 
         }
 
-        private void IlluminaPixel(string wxh, bool status)
+        private bool[,] IndividuaLettera(char lettera)
         {
-            switch (wxh)
+            Lettere lettere = new Lettere();
+
+            switch (lettera)
             {
-                case "00":
-                    btn100.Visible = status;
+                case 'a':
+                    return lettere.letteraA;
+                case 'b':
+                    return lettere.letteraB;
+                case 'c':
+                    return lettere.letteraC;
+                case 'd':
+                    return lettere.letteraD;                    
+                case 'e':
+                    return lettere.letteraE;                    
+                case 'f':
+                    return lettere.letteraF;                   
+                case 'g':
+                    return lettere.letteraG;                   
+                case 'h':
+                    return lettere.letteraH;                    
+                case 'i':
+                    return lettere.letteraI;                   
+                case 'j':
+                    return lettere.letteraJ;                   
+                case 'k':
+                    return lettere.letteraK;                   
+                case 'l':
+                    return lettere.letteraL;                    
+                case 'm':
+                    return lettere.letteraM;                    
+                case 'n':
+                    return lettere.letteraN;                    
+                case 'o':
+                    return lettere.letteraO;                    
+                case 'p':
+                    return lettere.letteraP;                    
+                case 'q':
+                    return lettere.letteraQ;                    
+                case 'r':
+                    return lettere.letteraR;                    
+                case 's':
+                    return lettere.letteraS;                   
+                case 't':
+                    return lettere.letteraT;                    
+                case 'u':
+                    return lettere.letteraU;                    
+                case 'v':
+                    return lettere.letteraV;                    
+                case 'w':
+                    return lettere.letteraW;                    
+                case 'x':
+                    return lettere.letteraX;                    
+                case 'y':
+                    return lettere.letteraY;                    
+                case 'z':
+                    return lettere.letteraZ;                    
+                case ' ':
+                    return lettere.vuoto;                    
+                case '!':
+                    return lettere.esclamazione;
+                default:
+                    return lettere.vuoto;   
+            }
+        }
+
+        private void IlluminaPixel(int schermo, string wxh, bool status)
+        {
+            switch (schermo)
+            {
+                case 1:
+                    switch (wxh)
+                    {
+                        case "00":
+                            btn100.Visible = status;
+                            break;
+                        case "10":
+                            btn110.Visible = status;
+                            break;
+                        case "20":
+                            btn120.Visible = status;
+                            break;
+                        case "01":
+                            btn101.Visible = status;
+                            break;
+                        case "11":
+                            btn111.Visible = status;
+                            break;
+                        case "21":
+                            btn121.Visible = status;
+                            break;
+                        case "02":
+                            btn102.Visible = status;
+                            break;
+                        case "12":
+                            btn112.Visible = status;
+                            break;
+                        case "22":
+                            btn122.Visible = status;
+                            break;
+                        case "03":
+                            btn103.Visible = status;
+                            break;
+                        case "13":
+                            btn113.Visible = status;
+                            break;
+                        case "23":
+                            btn123.Visible = status;
+                            break;
+                        case "04":
+                            btn104.Visible = status;
+                            break;
+                        case "14":
+                            btn114.Visible = status;
+                            break;
+                        case "24":
+                            btn124.Visible = status;
+                            break;
+                    }
                     break;
-                case "10":
-                    btn110.Visible = status;
+                case 2:
+                    switch (wxh)
+                    {
+                        case "00":
+                            btn200.Visible = status;
+                            break;
+                        case "10":
+                            btn210.Visible = status;
+                            break;
+                        case "20":
+                            btn220.Visible = status;
+                            break;
+                        case "01":
+                            btn201.Visible = status;
+                            break;
+                        case "11":
+                            btn211.Visible = status;
+                            break;
+                        case "21":
+                            btn221.Visible = status;
+                            break;
+                        case "02":
+                            btn202.Visible = status;
+                            break;
+                        case "12":
+                            btn212.Visible = status;
+                            break;
+                        case "22":
+                            btn222.Visible = status;
+                            break;
+                        case "03":
+                            btn203.Visible = status;
+                            break;
+                        case "13":
+                            btn213.Visible = status;
+                            break;
+                        case "23":
+                            btn223.Visible = status;
+                            break;
+                        case "04":
+                            btn204.Visible = status;
+                            break;
+                        case "14":
+                            btn214.Visible = status;
+                            break;
+                        case "24":
+                            btn224.Visible = status;
+                            break;
+                    }
                     break;
-                case "20":
-                    btn120.Visible = status;
+                case 3:
+                    switch (wxh)
+                    {
+                        case "00":
+                            btn300.Visible = status;
+                            break;
+                        case "10":
+                            btn310.Visible = status;
+                            break;
+                        case "20":
+                            btn320.Visible = status;
+                            break;
+                        case "01":
+                            btn301.Visible = status;
+                            break;
+                        case "11":
+                            btn311.Visible = status;
+                            break;
+                        case "21":
+                            btn321.Visible = status;
+                            break;
+                        case "02":
+                            btn302.Visible = status;
+                            break;
+                        case "12":
+                            btn312.Visible = status;
+                            break;
+                        case "22":
+                            btn322.Visible = status;
+                            break;
+                        case "03":
+                            btn303.Visible = status;
+                            break;
+                        case "13":
+                            btn313.Visible = status;
+                            break;
+                        case "23":
+                            btn323.Visible = status;
+                            break;
+                        case "04":
+                            btn304.Visible = status;
+                            break;
+                        case "14":
+                            btn314.Visible = status;
+                            break;
+                        case "24":
+                            btn324.Visible = status;
+                            break;
+                    }
                     break;
-                case "01":
-                    btn101.Visible = status;
+                case 4:
+                    switch (wxh)
+                    {
+                        case "00":
+                            btn400.Visible = status;
+                            break;
+                        case "10":
+                            btn410.Visible = status;
+                            break;
+                        case "20":
+                            btn420.Visible = status;
+                            break;
+                        case "01":
+                            btn401.Visible = status;
+                            break;
+                        case "11":
+                            btn411.Visible = status;
+                            break;
+                        case "21":
+                            btn421.Visible = status;
+                            break;
+                        case "02":
+                            btn402.Visible = status;
+                            break;
+                        case "12":
+                            btn412.Visible = status;
+                            break;
+                        case "22":
+                            btn422.Visible = status;
+                            break;
+                        case "03":
+                            btn403.Visible = status;
+                            break;
+                        case "13":
+                            btn413.Visible = status;
+                            break;
+                        case "23":
+                            btn423.Visible = status;
+                            break;
+                        case "04":
+                            btn404.Visible = status;
+                            break;
+                        case "14":
+                            btn414.Visible = status;
+                            break;
+                        case "24":
+                            btn424.Visible = status;
+                            break;
+                    }
                     break;
-                case "11":
-                    btn111.Visible = status;
-                    break;
-                case "21":
-                    btn121.Visible = status;
-                    break;
-                case "02":
-                    btn102.Visible = status;
-                    break;
-                case "12":
-                    btn112.Visible = status;
-                    break;
-                case "22":
-                    btn122.Visible = status;
-                    break;
-                case "03":
-                    btn103.Visible = status;
-                    break;
-                case "13":
-                    btn113.Visible = status;
-                    break;
-                case "23":
-                    btn123.Visible = status;
-                    break;
-                case "04":
-                    btn104.Visible = status;
-                    break;
-                case "14":
-                    btn114.Visible = status;
-                    break;
-                case "24":
-                    btn124.Visible = status;
-                    break;
-            }    
+            }
         }
     }
 }
