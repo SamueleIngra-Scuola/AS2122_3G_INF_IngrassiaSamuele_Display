@@ -23,19 +23,15 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
 
         }
 
+        const int N_SCHERMI = 4;
         private void btnEsegui_Click(object sender, EventArgs e)
-        {
-            
-            
+        { 
             string frase = txtLettera.Text.ToLower();
-            
-
-
 
             for (int i = 0; i < frase.Length - 3; i++)
             {
                 int schermo = 1;
-                for (int j = i; schermo <= 4; j++, schermo++)
+                for (int j = i; schermo <= N_SCHERMI; j++, schermo++)
                 {
                     InserisciLettera(schermo, frase[j]);           
                 }
@@ -44,7 +40,15 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             }
 
         }
-        
+
+        private void btnSvuota_Click(object sender, EventArgs e)
+        {
+            Lettere lettere = new Lettere();
+            for (int i = 1; i <= N_SCHERMI; i++)
+                InserisciLettera(i, ' ');
+                
+        }
+
 
         private void InserisciLettera(int schermo, char lettera)
         {
@@ -326,5 +330,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                     break;
             }
         }
+
+        
     }
 }
