@@ -145,6 +145,8 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                     return lettere.vuoto;                    
                 case '!':
                     return lettere.esclamazione;
+                case '?':
+                    return lettere.interrogazione;
                 case '\'':
                     return lettere.apostrofo;
                 case ',':
