@@ -31,7 +31,7 @@ namespace AS2122_3G_INF_Ingrassia_Display.Lib
         public bool[,] letteraY = new bool[,] { { true, false, true }, { true, false, true }, { true, true, true }, { false, true, false }, { false, true, false } };
         public bool[,] letteraZ = new bool[,] { { true, true, true }, { false, false, true }, { false, true, false }, { true, false, false }, { true, true, true } };
         public bool[,] vuoto = new bool[,] { { false, false, false }, { false, false, false }, { false, false, false }, { false, false, false }, { false, false, false } };
-        public bool[,] esclamazione = new bool[,] { { false, true, false }, { false, true, false }, { true, true, false }, { false, false, false }, { false, true, false } };
+        public bool[,] esclamazione = new bool[,] { { false, true, false }, { false, true, false }, { false, true, false }, { false, false, false }, { false, true, false } };
         public bool[,] interrogazione = new bool[,] { { true, true, true }, { false, false, true }, { false, true, true }, { false, false, false }, { false, true, false } };
         public bool[,] apostrofo = new bool[,] { { true, false, false }, { true, false, false }, { false, false, false }, { false, false, false }, { false, false, false } };
         public bool[,] virgola = new bool[,] { { false, false, false }, { false, false, false }, { false, true, false }, { false, true, false }, { true, false, false } };
