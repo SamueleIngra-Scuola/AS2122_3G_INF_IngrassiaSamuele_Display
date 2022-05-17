@@ -93,12 +93,15 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             this.btn310 = new System.Windows.Forms.Button();
             this.btn300 = new System.Windows.Forms.Button();
             this.btnSvuota = new System.Windows.Forms.Button();
+            this.trckBarraVelocita = new System.Windows.Forms.TrackBar();
+            this.btnSwitchDirection = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.trckBarraVelocita)).BeginInit();
             this.SuspendLayout();
             // 
             // lblLettera
             // 
             this.lblLettera.AutoSize = true;
-            this.lblLettera.Location = new System.Drawing.Point(12, 29);
+            this.lblLettera.Location = new System.Drawing.Point(22, 29);
             this.lblLettera.Name = "lblLettera";
             this.lblLettera.Size = new System.Drawing.Size(169, 15);
             this.lblLettera.TabIndex = 0;
@@ -106,7 +109,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // txtLettera
             // 
-            this.txtLettera.Location = new System.Drawing.Point(185, 26);
+            this.txtLettera.Location = new System.Drawing.Point(195, 26);
             this.txtLettera.Name = "txtLettera";
             this.txtLettera.Size = new System.Drawing.Size(108, 23);
             this.txtLettera.TabIndex = 1;
@@ -1040,11 +1043,41 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             this.btnSvuota.UseVisualStyleBackColor = false;
             this.btnSvuota.Click += new System.EventHandler(this.btnSvuota_Click);
             // 
+            // trckBarraVelocita
+            // 
+            this.trckBarraVelocita.LargeChange = 1;
+            this.trckBarraVelocita.Location = new System.Drawing.Point(22, 220);
+            this.trckBarraVelocita.Maximum = 11;
+            this.trckBarraVelocita.Minimum = 1;
+            this.trckBarraVelocita.Name = "trckBarraVelocita";
+            this.trckBarraVelocita.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.trckBarraVelocita.Size = new System.Drawing.Size(366, 45);
+            this.trckBarraVelocita.TabIndex = 64;
+            this.trckBarraVelocita.TabStop = false;
+            this.trckBarraVelocita.Value = 6;
+            // 
+            // btnSwitchDirection
+            // 
+            this.btnSwitchDirection.BackColor = System.Drawing.Color.White;
+            this.btnSwitchDirection.FlatAppearance.BorderSize = 0;
+            this.btnSwitchDirection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSwitchDirection.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSwitchDirection.ForeColor = System.Drawing.Color.Black;
+            this.btnSwitchDirection.Location = new System.Drawing.Point(22, 49);
+            this.btnSwitchDirection.Name = "btnSwitchDirection";
+            this.btnSwitchDirection.Size = new System.Drawing.Size(36, 23);
+            this.btnSwitchDirection.TabIndex = 65;
+            this.btnSwitchDirection.Text = "🠖";
+            this.btnSwitchDirection.UseVisualStyleBackColor = false;
+            this.btnSwitchDirection.Click += new System.EventHandler(this.btnSwitchDirection_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 227);
+            this.ClientSize = new System.Drawing.Size(421, 261);
+            this.Controls.Add(this.btnSwitchDirection);
+            this.Controls.Add(this.trckBarraVelocita);
             this.Controls.Add(this.btnSvuota);
             this.Controls.Add(this.btn424);
             this.Controls.Add(this.btn414);
@@ -1112,6 +1145,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             this.Name = "frmMain";
             this.Text = "Display";
             this.Load += new System.EventHandler(this.frmMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.trckBarraVelocita)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1183,6 +1217,8 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
         private System.Windows.Forms.Button btn310;
         private System.Windows.Forms.Button btn300;
         private System.Windows.Forms.Button btnSvuota;
+        private System.Windows.Forms.TrackBar trckBarraVelocita;
+        private System.Windows.Forms.Button btnSwitchDirection;
     }
 }
 

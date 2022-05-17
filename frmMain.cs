@@ -24,20 +24,38 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
         }
 
         const int N_SCHERMI = 4;
+        bool linearScroll = true;
         private void btnEsegui_Click(object sender, EventArgs e)
         { 
             string frase = txtLettera.Text.ToLower();
 
-            for (int i = 0; i < frase.Length - 3; i++)
+            if (linearScroll == true)
             {
-                int schermo = 1;
-                for (int j = i; schermo <= N_SCHERMI; j++, schermo++)
+                for (int i = 0; i < frase.Length - 3; i++)
                 {
-                    InserisciLettera(schermo, frase[j]);           
+                    int schermo = 1;
+                    for (int j = i; schermo <= N_SCHERMI; j++, schermo++)
+                    {
+                        InserisciLettera(schermo, frase[j]);
+                    }
+                    Application.DoEvents();
+                    System.Threading.Thread.Sleep(OttieniVelocitaScorrimento());
                 }
-                Application.DoEvents();
-                System.Threading.Thread.Sleep(300);
             }
+            else
+            {
+                for (int i = frase.Length - 1; i > 2; i--)
+                {
+                    int schermo = 4;
+                    for (int j = i; schermo > 0 && j >= 0; j--, schermo--)
+                    {
+                        InserisciLettera(schermo, frase[j]);
+                    }
+                    Application.DoEvents();
+                    System.Threading.Thread.Sleep(OttieniVelocitaScorrimento());
+                }
+            }
+            
 
         }
 
@@ -46,9 +64,17 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             Lettere lettere = new Lettere();
             for (int i = 1; i <= N_SCHERMI; i++)
                 InserisciLettera(i, ' ');
+            txtLettera.Text = "";
                 
         }
 
+
+        private int OttieniVelocitaScorrimento()
+        {
+            int speed = trckBarraVelocita.Value * 100; //Prendiamo il valore attuale e lo moltiplichiamo di 100
+            
+            return speed;
+        }
 
         private void InserisciLettera(int schermo, char lettera)
         {
@@ -119,6 +145,10 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                     return lettere.vuoto;                    
                 case '!':
                     return lettere.esclamazione;
+                case '\'':
+                    return lettere.apostrofo;
+                case ',':
+                    return lettere.virgola;
                 default:
                     return lettere.vuoto;   
             }
@@ -329,6 +359,21 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
                     }
                     break;
             }
-        } 
+        }
+
+        private void btnSwitchDirection_Click(object sender, EventArgs e)
+        {
+            switch(btnSwitchDirection.Text.ToLower())
+            {
+                case "🠖":
+                    btnSwitchDirection.Text = "🠔";
+                    linearScroll = false;
+                    break;
+                case "🠔":
+                    btnSwitchDirection.Text = "🠖";
+                    linearScroll = true;
+                    break;
+            }
+        }
     }
 }
