@@ -131,7 +131,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn100
             // 
-            this.btn100.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn100.BackColor = System.Drawing.Color.Aqua;
             this.btn100.Enabled = false;
             this.btn100.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn100.FlatAppearance.BorderSize = 0;
@@ -146,7 +146,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn110
             // 
-            this.btn110.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn110.BackColor = System.Drawing.Color.Aqua;
             this.btn110.Enabled = false;
             this.btn110.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn110.FlatAppearance.BorderSize = 0;
@@ -161,7 +161,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn120
             // 
-            this.btn120.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn120.BackColor = System.Drawing.Color.Aqua;
             this.btn120.Enabled = false;
             this.btn120.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn120.FlatAppearance.BorderSize = 0;
@@ -176,7 +176,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn121
             // 
-            this.btn121.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn121.BackColor = System.Drawing.Color.Aqua;
             this.btn121.Enabled = false;
             this.btn121.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn121.FlatAppearance.BorderSize = 0;
@@ -191,7 +191,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn111
             // 
-            this.btn111.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn111.BackColor = System.Drawing.Color.Aqua;
             this.btn111.Enabled = false;
             this.btn111.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn111.FlatAppearance.BorderSize = 0;
@@ -206,7 +206,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn101
             // 
-            this.btn101.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn101.BackColor = System.Drawing.Color.Aqua;
             this.btn101.Enabled = false;
             this.btn101.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn101.FlatAppearance.BorderSize = 0;
@@ -221,7 +221,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn122
             // 
-            this.btn122.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn122.BackColor = System.Drawing.Color.Aqua;
             this.btn122.Enabled = false;
             this.btn122.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn122.FlatAppearance.BorderSize = 0;
@@ -236,7 +236,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn112
             // 
-            this.btn112.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn112.BackColor = System.Drawing.Color.Aqua;
             this.btn112.Enabled = false;
             this.btn112.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn112.FlatAppearance.BorderSize = 0;
@@ -251,7 +251,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn102
             // 
-            this.btn102.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn102.BackColor = System.Drawing.Color.Aqua;
             this.btn102.Enabled = false;
             this.btn102.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn102.FlatAppearance.BorderSize = 0;
@@ -266,7 +266,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn123
             // 
-            this.btn123.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn123.BackColor = System.Drawing.Color.Aqua;
             this.btn123.Enabled = false;
             this.btn123.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn123.FlatAppearance.BorderSize = 0;
@@ -281,7 +281,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn113
             // 
-            this.btn113.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn113.BackColor = System.Drawing.Color.Aqua;
             this.btn113.Enabled = false;
             this.btn113.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn113.FlatAppearance.BorderSize = 0;
@@ -296,7 +296,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn103
             // 
-            this.btn103.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn103.BackColor = System.Drawing.Color.Aqua;
             this.btn103.Enabled = false;
             this.btn103.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn103.FlatAppearance.BorderSize = 0;
@@ -311,7 +311,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn124
             // 
-            this.btn124.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn124.BackColor = System.Drawing.Color.Aqua;
             this.btn124.Enabled = false;
             this.btn124.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn124.FlatAppearance.BorderSize = 0;
@@ -326,7 +326,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn114
             // 
-            this.btn114.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn114.BackColor = System.Drawing.Color.Aqua;
             this.btn114.Enabled = false;
             this.btn114.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn114.FlatAppearance.BorderSize = 0;
@@ -341,7 +341,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn104
             // 
-            this.btn104.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn104.BackColor = System.Drawing.Color.Aqua;
             this.btn104.Enabled = false;
             this.btn104.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn104.FlatAppearance.BorderSize = 0;
@@ -356,7 +356,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn224
             // 
-            this.btn224.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn224.BackColor = System.Drawing.Color.Aqua;
             this.btn224.Enabled = false;
             this.btn224.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn224.FlatAppearance.BorderSize = 0;
@@ -371,7 +371,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn214
             // 
-            this.btn214.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn214.BackColor = System.Drawing.Color.Aqua;
             this.btn214.Enabled = false;
             this.btn214.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn214.FlatAppearance.BorderSize = 0;
@@ -386,7 +386,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn204
             // 
-            this.btn204.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn204.BackColor = System.Drawing.Color.Aqua;
             this.btn204.Enabled = false;
             this.btn204.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn204.FlatAppearance.BorderSize = 0;
@@ -401,7 +401,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn223
             // 
-            this.btn223.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn223.BackColor = System.Drawing.Color.Aqua;
             this.btn223.Enabled = false;
             this.btn223.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn223.FlatAppearance.BorderSize = 0;
@@ -416,7 +416,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn213
             // 
-            this.btn213.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn213.BackColor = System.Drawing.Color.Aqua;
             this.btn213.Enabled = false;
             this.btn213.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn213.FlatAppearance.BorderSize = 0;
@@ -431,7 +431,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn203
             // 
-            this.btn203.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn203.BackColor = System.Drawing.Color.Aqua;
             this.btn203.Enabled = false;
             this.btn203.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn203.FlatAppearance.BorderSize = 0;
@@ -446,7 +446,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn222
             // 
-            this.btn222.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn222.BackColor = System.Drawing.Color.Aqua;
             this.btn222.Enabled = false;
             this.btn222.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn222.FlatAppearance.BorderSize = 0;
@@ -461,7 +461,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn212
             // 
-            this.btn212.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn212.BackColor = System.Drawing.Color.Aqua;
             this.btn212.Enabled = false;
             this.btn212.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn212.FlatAppearance.BorderSize = 0;
@@ -476,7 +476,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn202
             // 
-            this.btn202.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn202.BackColor = System.Drawing.Color.Aqua;
             this.btn202.Enabled = false;
             this.btn202.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn202.FlatAppearance.BorderSize = 0;
@@ -491,7 +491,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn221
             // 
-            this.btn221.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn221.BackColor = System.Drawing.Color.Aqua;
             this.btn221.Enabled = false;
             this.btn221.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn221.FlatAppearance.BorderSize = 0;
@@ -506,7 +506,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn211
             // 
-            this.btn211.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn211.BackColor = System.Drawing.Color.Aqua;
             this.btn211.Enabled = false;
             this.btn211.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn211.FlatAppearance.BorderSize = 0;
@@ -521,7 +521,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn201
             // 
-            this.btn201.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn201.BackColor = System.Drawing.Color.Aqua;
             this.btn201.Enabled = false;
             this.btn201.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn201.FlatAppearance.BorderSize = 0;
@@ -536,7 +536,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn220
             // 
-            this.btn220.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn220.BackColor = System.Drawing.Color.Aqua;
             this.btn220.Enabled = false;
             this.btn220.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn220.FlatAppearance.BorderSize = 0;
@@ -551,7 +551,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn210
             // 
-            this.btn210.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn210.BackColor = System.Drawing.Color.Aqua;
             this.btn210.Enabled = false;
             this.btn210.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn210.FlatAppearance.BorderSize = 0;
@@ -566,7 +566,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn200
             // 
-            this.btn200.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn200.BackColor = System.Drawing.Color.Aqua;
             this.btn200.Enabled = false;
             this.btn200.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn200.FlatAppearance.BorderSize = 0;
@@ -581,7 +581,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn424
             // 
-            this.btn424.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn424.BackColor = System.Drawing.Color.Aqua;
             this.btn424.Enabled = false;
             this.btn424.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn424.FlatAppearance.BorderSize = 0;
@@ -596,7 +596,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn414
             // 
-            this.btn414.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn414.BackColor = System.Drawing.Color.Aqua;
             this.btn414.Enabled = false;
             this.btn414.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn414.FlatAppearance.BorderSize = 0;
@@ -611,7 +611,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn404
             // 
-            this.btn404.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn404.BackColor = System.Drawing.Color.Aqua;
             this.btn404.Enabled = false;
             this.btn404.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn404.FlatAppearance.BorderSize = 0;
@@ -626,7 +626,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn423
             // 
-            this.btn423.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn423.BackColor = System.Drawing.Color.Aqua;
             this.btn423.Enabled = false;
             this.btn423.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn423.FlatAppearance.BorderSize = 0;
@@ -641,7 +641,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn413
             // 
-            this.btn413.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn413.BackColor = System.Drawing.Color.Aqua;
             this.btn413.Enabled = false;
             this.btn413.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn413.FlatAppearance.BorderSize = 0;
@@ -656,7 +656,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn403
             // 
-            this.btn403.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn403.BackColor = System.Drawing.Color.Aqua;
             this.btn403.Enabled = false;
             this.btn403.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn403.FlatAppearance.BorderSize = 0;
@@ -671,7 +671,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn422
             // 
-            this.btn422.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn422.BackColor = System.Drawing.Color.Aqua;
             this.btn422.Enabled = false;
             this.btn422.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn422.FlatAppearance.BorderSize = 0;
@@ -686,7 +686,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn412
             // 
-            this.btn412.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn412.BackColor = System.Drawing.Color.Aqua;
             this.btn412.Enabled = false;
             this.btn412.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn412.FlatAppearance.BorderSize = 0;
@@ -701,7 +701,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn402
             // 
-            this.btn402.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn402.BackColor = System.Drawing.Color.Aqua;
             this.btn402.Enabled = false;
             this.btn402.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn402.FlatAppearance.BorderSize = 0;
@@ -716,7 +716,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn421
             // 
-            this.btn421.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn421.BackColor = System.Drawing.Color.Aqua;
             this.btn421.Enabled = false;
             this.btn421.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn421.FlatAppearance.BorderSize = 0;
@@ -731,7 +731,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn411
             // 
-            this.btn411.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn411.BackColor = System.Drawing.Color.Aqua;
             this.btn411.Enabled = false;
             this.btn411.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn411.FlatAppearance.BorderSize = 0;
@@ -746,7 +746,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn401
             // 
-            this.btn401.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn401.BackColor = System.Drawing.Color.Aqua;
             this.btn401.Enabled = false;
             this.btn401.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn401.FlatAppearance.BorderSize = 0;
@@ -761,7 +761,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn420
             // 
-            this.btn420.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn420.BackColor = System.Drawing.Color.Aqua;
             this.btn420.Enabled = false;
             this.btn420.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn420.FlatAppearance.BorderSize = 0;
@@ -776,7 +776,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn410
             // 
-            this.btn410.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn410.BackColor = System.Drawing.Color.Aqua;
             this.btn410.Enabled = false;
             this.btn410.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn410.FlatAppearance.BorderSize = 0;
@@ -791,7 +791,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn400
             // 
-            this.btn400.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn400.BackColor = System.Drawing.Color.Aqua;
             this.btn400.Enabled = false;
             this.btn400.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn400.FlatAppearance.BorderSize = 0;
@@ -806,7 +806,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn324
             // 
-            this.btn324.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn324.BackColor = System.Drawing.Color.Aqua;
             this.btn324.Enabled = false;
             this.btn324.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn324.FlatAppearance.BorderSize = 0;
@@ -821,7 +821,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn314
             // 
-            this.btn314.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn314.BackColor = System.Drawing.Color.Aqua;
             this.btn314.Enabled = false;
             this.btn314.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn314.FlatAppearance.BorderSize = 0;
@@ -836,7 +836,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn304
             // 
-            this.btn304.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn304.BackColor = System.Drawing.Color.Aqua;
             this.btn304.Enabled = false;
             this.btn304.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn304.FlatAppearance.BorderSize = 0;
@@ -851,7 +851,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn323
             // 
-            this.btn323.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn323.BackColor = System.Drawing.Color.Aqua;
             this.btn323.Enabled = false;
             this.btn323.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn323.FlatAppearance.BorderSize = 0;
@@ -866,7 +866,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn313
             // 
-            this.btn313.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn313.BackColor = System.Drawing.Color.Aqua;
             this.btn313.Enabled = false;
             this.btn313.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn313.FlatAppearance.BorderSize = 0;
@@ -881,7 +881,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn303
             // 
-            this.btn303.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn303.BackColor = System.Drawing.Color.Aqua;
             this.btn303.Enabled = false;
             this.btn303.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn303.FlatAppearance.BorderSize = 0;
@@ -896,7 +896,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn322
             // 
-            this.btn322.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn322.BackColor = System.Drawing.Color.Aqua;
             this.btn322.Enabled = false;
             this.btn322.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn322.FlatAppearance.BorderSize = 0;
@@ -911,7 +911,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn312
             // 
-            this.btn312.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn312.BackColor = System.Drawing.Color.Aqua;
             this.btn312.Enabled = false;
             this.btn312.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn312.FlatAppearance.BorderSize = 0;
@@ -926,7 +926,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn302
             // 
-            this.btn302.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn302.BackColor = System.Drawing.Color.Aqua;
             this.btn302.Enabled = false;
             this.btn302.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn302.FlatAppearance.BorderSize = 0;
@@ -941,7 +941,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn321
             // 
-            this.btn321.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn321.BackColor = System.Drawing.Color.Aqua;
             this.btn321.Enabled = false;
             this.btn321.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn321.FlatAppearance.BorderSize = 0;
@@ -956,7 +956,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn311
             // 
-            this.btn311.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn311.BackColor = System.Drawing.Color.Aqua;
             this.btn311.Enabled = false;
             this.btn311.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn311.FlatAppearance.BorderSize = 0;
@@ -971,7 +971,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn301
             // 
-            this.btn301.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn301.BackColor = System.Drawing.Color.Aqua;
             this.btn301.Enabled = false;
             this.btn301.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn301.FlatAppearance.BorderSize = 0;
@@ -986,7 +986,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn320
             // 
-            this.btn320.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn320.BackColor = System.Drawing.Color.Aqua;
             this.btn320.Enabled = false;
             this.btn320.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn320.FlatAppearance.BorderSize = 0;
@@ -1001,7 +1001,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn310
             // 
-            this.btn310.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn310.BackColor = System.Drawing.Color.Aqua;
             this.btn310.Enabled = false;
             this.btn310.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn310.FlatAppearance.BorderSize = 0;
@@ -1016,7 +1016,7 @@ namespace AS2122_3G_INF_IngrassiaSamuele_Display
             // 
             // btn300
             // 
-            this.btn300.BackColor = System.Drawing.Color.Fuchsia;
+            this.btn300.BackColor = System.Drawing.Color.Aqua;
             this.btn300.Enabled = false;
             this.btn300.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn300.FlatAppearance.BorderSize = 0;
