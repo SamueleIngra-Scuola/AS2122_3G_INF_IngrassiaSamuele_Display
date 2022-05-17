@@ -220,7 +220,5 @@ namespace AS2122_3G_INF_Ingrassia_Display.Lib
             { false, true, false }, 
             { false, true, false }, 
             { true, false, false } };
-
-
     }
 }
